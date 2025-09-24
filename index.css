@@ -1,12 +1,18 @@
 body{
-    background-color: #050044;
+    background-color: #1106b4;
 }
 div{
     width: 450px;
-    background-color: rgb(255, 170, 0);
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     margin-top: 100px;
     padding: 30px 20px;
+    color: #1106b4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    border-radius: 20px;
+    
+
 
 }
 img{
@@ -17,9 +23,35 @@ img{
     margin: 0 auto;
     display: block;
 }
+h1{ 
+font-size: 22px;
+margin-bottom: 0;
+color: brown;
+}
 
+h2{
+    font-size: 16px;
+    margin-top: 0;
+    color: black;
+    p{margin-bottom: 40px;}
+}
 
+p{
+    color: rgb(126, 32, 87);
+}
+a{
+display: block; 
+line-height: 40px;;
+background-color: darkgreen;
+color: aliceblue;
+margin-bottom: 10px;
+text-decoration: none;
+border-radius: 10px;
+transition-duration: 200ms;
+}
 
+a:hover{
+    background-color: firebrick;
+    
 
-
-
+}
